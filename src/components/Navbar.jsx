@@ -15,7 +15,7 @@ const Navbar = ({ onSearch }) => {
   };
 
   return (
-    <BootstrapNavbar bg="dark" variant="dark" expand="lg" className="mb-4">
+    <BootstrapNavbar bg="dark" variant="dark" expand="lg" className="mb-4 position-fixed w-100 z-3">
       <Container>
         <BootstrapNavbar.Brand href="/">Movie Cards</BootstrapNavbar.Brand>
         <Form className="d-flex ms-auto">
